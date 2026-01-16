@@ -27,6 +27,7 @@ Atom OS is designed to be AI-powered with a focus on a new age of computing.
 
 - AI automations can be spawned to perform tasks on your behalf across your digital world and physical devices.
 
+- Generative UI enables agents to control the user interface. This means that you can collaboratively interact with your computer and AI hands free.
 
 
 ![Flow Diagram](docs/assets/FlowDiagram.gif)
