@@ -15,7 +15,7 @@ The OS is a rethink of how computing should work. It is designed to be AI-powere
 
 ### Cross-platform
 
-- The OS is designed to run on any Intel/AMD, ARM and RISC-V processors for desktop, mobile, servers and embedded devices.
+- The OS is designed to run on any Intel/AMD or ARM processors for desktop, mobile, servers and embedded devices.
 
 ### Intelligence
 
