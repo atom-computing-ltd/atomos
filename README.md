@@ -1,10 +1,10 @@
 # Atom OS
 
-Atom OS is a cross-platform operating system that is built on top of [Redox](https://www.redox-os.org/) instead of Linux. Redox is a new alternative to Linux that uses a microkernel architecture with a focus on security and performance.
+Atom OS is a new cross-platform operating system that is built on top of the [Redox kernel](https://www.redox-os.org/). Redox is an alternative to Linux that uses a microkernel architecture with a focus on security and performance.
 
-The OS is a rethink of how computing should work. It is designed to be AI-powered with a focus on a new age of computing. It is built to be secure, fast and compact.
+The OS is a rethink of how computing should work in the modern age. It is designed to be AI-powered with a focus on a new age of computing. It is also built to be secure, fast and compact.
 
-### Security
+### Security advantages
 
 - Over half of iOS exploits are due to memory corruption bugs. These are easier to prevent with a Rust-based foundation that uses formal verification on the kernel.
 
@@ -15,11 +15,11 @@ The OS is a rethink of how computing should work. It is designed to be AI-powere
 
 ### Cross-platform
 
-- The OS is designed to run on any Intel/AMD or ARM processors for desktop, mobile, servers and embedded devices.
+- The OS is designed to run on ARM processors for desktop, mobile, servers and embedded devices.
 
 ### Intelligence
 
-Atom OS is designed to be AI-powered with a focus on a new age of computing.
+Atom OS is designed to be intelligent at the core of the user experience.
 
 - Full context-aware history across your data using a new file-system based on memories and documents. [SurrealDB](https://surrealdb.com/) is used to automatically index and organize your data for AI agents.
 
@@ -35,5 +35,4 @@ Atom OS is designed to be AI-powered with a focus on a new age of computing.
 
 ## Supported Architectures
 
-- x86_64
 - aarch64
