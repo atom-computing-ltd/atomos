@@ -32,6 +32,23 @@ Atom OS is designed to be intelligent at the core of the user experience.
 
 ![Flow Diagram](docs/assets/FlowDiagram.gif)
 
+### Use cases
+
+- **Personal computing**
+
+    Atom OS is intended for use in the [Atom 1](https://atomcomputers.org/) as a private offline AI-powered operating system.
+
+- **Robotics**
+
+    Keeping the robot's long-term memory on the robot itself instead of in the cloud to ensure privacy and security.
+
+- **IoT & embedded devices**
+
+    Making intelligent devices such as offline security camera monitoring systems, smart home devices, and more.
+
+- **Servers**
+
+    Businesses that want to connect their data and devices to an intelligent system they control for automation and analysis.
 
 ## Supported Architectures
 
