@@ -53,3 +53,46 @@ Atom OS is designed to be intelligent at the core of the user experience.
 ## Supported Architectures
 
 - aarch64
+
+## Building Atom OS
+
+Atom OS is built using the Redox OS build system, which is included as a submodule.
+
+### Prerequisites
+
+- **Rust Nightly**: The build system requires a nightly version of Rust.
+  ```sh
+  rustup toolchain install nightly
+  rustup default nightly
+  ```
+- **Build Tools**: You will need standard build tools (make, nasm, etc.). On macOS, it is highly recommended to use **Podman** to build in a container to avoid compatibility issues.
+  ```sh
+  brew install podman
+  podman machine init
+  podman machine start
+  ```
+
+### Build Instructions
+
+1.  **Initialize the repository:**
+    ```sh
+    git submodule update --init --recursive
+    ```
+
+3.  **Build the image:**
+    Run `make` from the project root. This will automatically sync the configuration and build the image.
+    ```sh
+    make all
+    ```
+    *Note: The first build will take a significant amount of time as it compiles the toolchain and all packages.*
+
+4.  **Run in QEMU:**
+    ```sh
+    make qemu
+    ```
+
+### Customization
+
+- **Configuration**: Edit `atom_configuration/atom.toml` to add packages or change settings.
+- **Files**: Place custom files (wallpapers, configs) in `atom_configuration/files/` and reference them in `atom.toml`.
+- **Recipes**: Add custom recipes to `atom_configuration/recipes/` to patch or create new packages.
